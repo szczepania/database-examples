@@ -5,7 +5,7 @@ from faker import Faker
 
 fake = Faker()
 
-db = sqlite3.connect('databases/sales_data_with_customers.db')
+db = sqlite3.connect('../databases/sales_data_with_customers.db')
 cursor = db.cursor()
 
 cursor.execute('''

@@ -5,7 +5,7 @@ import pandas as pd
 
 fake = Faker()
 
-db = sqlite3.connect('databases/database.db')
+db = sqlite3.connect('../databases/database.db')
 cursor = db.cursor()
 
 cursor.execute('''
